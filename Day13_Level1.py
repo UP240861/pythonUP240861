@@ -9,7 +9,7 @@ aplanada = [num for sublist in list_of_lists for subsublist in sublist for num i
 print("\n2. Lista aplanada:", aplanada)
 
 # 3
-lista_tuplas = [(i, 1, i, i*2, i3, i4, i*5) for i in range(11)]
+lista_tuplas = [(i, 1, i, i*2, i*3, i*4, i*5) for i in range(11)]
 print("\n3. Lista de tuplas:")
 for tupla in lista_tuplas:
     print(tupla)
